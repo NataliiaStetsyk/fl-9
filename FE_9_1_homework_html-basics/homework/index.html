@@ -1,165 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>HTML Basics</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <div id="wrapper">
-    <div id="main">
-      <div id="container">
-        <div id="content" role="main">
-          <header>
-          <img src="logo.png" alt="epam">
-		  <h1 id="home"><strong>HTML Elements</strong></h1>
-		  <hr>
-          <nav>
-            <a href="#home"><strong>Home</strong></a>
-            <a href="#headers"><strong>Headers</strong></a>
-            <a href="#table"><strong>Table</strong></a>
-			<a href="#lists"><strong>Lists</strong></a>
-            <a href="#textformats"><strong>Text formats</strong></a>
-            <a href="#blockquotes"><strong>Blockquotes</strong></a>
-          </nav>
-          <hr>
-        </header>  
-          <main>  
-          <section>
-		    <p>Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header</p>
-              <h2 id="headers">Header 2</h2>
-<h3>Header 3</h3>
-<h4>Header 4</h4>
-<h5>Header 5</h5>
-<h6>Header 6</h6>
-			  
-                  </section>
-                  <section>
-                  <h2 id="table">Table</h2> 
-                    <table>
-                      <thead>
-                        <tr>
-                          <th>Header</th>
-                          <th>Header</th>
-                          <th>Header</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td><strong>Strong</strong></td>
-                        <td>CO<sub>2</sub></td>
-                        <td><a href="#">Some link</a></td>
-                      </tr>
-                      <tr>
-                        <td><em>Italic</em></td>
-                        <td><abbr>Abbreviation</abbr></td>
-                        <td><s>Delete</s></td>
-                      </tr>
-                      <tr>
-                        <td><u>Underline</u></td>
-                        <td>5<sup>3</sup>=125</td>
-                        <td><ins>inserted</ins></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <hr>
-				  <h2 id="lists">Unordered List</h2>
-                <ul>
-                  <li>
-                    List item 1
-					</li>
-					<li>
-                    List item 2
-					</li>
-       
-                        <li>
-                          Some nested list item 1
-                        </li>
-                      
-					  <li>
-                    List item 3
-					</li>
-                  
-                </ul>
-                <h2>Ordered List</h2>
-                <ol>
-                  <li>
-                    List item 1
-					</li>
-					<li>
-                    List item 2
-					</li>
-                      
-                        <li>
-                          Some nested list item 1
-                        </li>
-                      
-					  <li>
-                    List item 3
-					</li>
-                  
-                </ol>
-				  <h3>Definition List</h3>
-                  <dl>
-                    <dt>defines terms 1</dt>
-                    <dd>description 1</dd>
-                    <dt>defines terms 2</dt>
-                    <dd>description 2</dd>
-                  </dl>
-                  <h2>Details</h2>
-                  <details open>
-                    <summary>Even more details open</summary>
-                    <p>Here are even more details about the details.</p>
-                  </details>
-                  <details>
-                    <summary>Even more details close</summary>
-                      <p>Here are even more details about the details.</p>
-                  </details>
-                  <hr>
-                  </section>
-                  <section>
-                  <h2 id="textformats">Text formats</h2>
-                  <h3>Article Text</h3>
-                  <article>
-                      <h2>Article title</h2>
-                      <p>Article description<p>
-                  </article>  
-                  <h3>Preformatted Text</h3>
-                  <pre><strong>Text</strong>
+   <head>
+      <meta charset="utf-8">
+      <title>HTML Basics</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div id="wrapper">
+         <div id="main">
+            <div id="container">
+               <div id="content" role="main">
+                  <header>
+                     <img src="logo.png" alt="epam">
+                     <h1 id="home"><strong>HTML Elements</strong></h1>
+                     <hr>
+                     <nav>
+                        <a href="#home"><strong>Home</strong></a>
+                        <a href="#headers"><strong>Headers</strong></a>
+                        <a href="#table"><strong>Table</strong></a>
+                        <a href="#lists"><strong>Lists</strong></a>
+                        <a href="#textformats"><strong>Text formats</strong></a>
+                        <a href="#blockquotes"><strong>Blockquotes</strong></a>
+                     </nav>
+                     <hr>
+                  </header>
+                  <main>
+                     <section>
+                        <p>Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header</p>
+                        <h2 id="headers">Header 2</h2>
+                        <h3>Header 3</h3>
+                        <h4>Header 4</h4>
+                        <h5>Header 5</h5>
+                        <h6>Header 6</h6>
+                     </section>
+                     <section>
+                        <h2 id="table">Table</h2>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <th>Header</th>
+                                 <th>Header</th>
+                                 <th>Header</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Strong</strong></td>
+                                 <td>CO<sub>2</sub></td>
+                                 <td><a href="#">Some link</a></td>
+                              </tr>
+                              <tr>
+                                 <td><em>Italic</em></td>
+                                 <td><abbr>Abbreviation</abbr></td>
+                                 <td><s>Delete</s></td>
+                              </tr>
+                              <tr>
+                                 <td><u>Underline</u></td>
+                                 <td>5<sup>3</sup>=125</td>
+                                 <td><ins>inserted</ins></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <hr>
+                        <h2 id="lists">Unordered List</h2>
+                        <ul>
+                           <li>
+                              List item 1
+                           </li>
+                           <li>
+                              List item 2					
+                              <ul>
+                                 <li>
+                                    Some nested list item 1
+                                 </li>
+                              </ul>
+                           </li>
+                           <li>
+                              List item 3
+                           </li>
+                        </ul>
+                        <h2>Ordered List</h2>
+                        <ol>
+                           <li>
+                              List item 1
+                           </li>
+                           <li>
+                              List item 2
+                              <ol>
+                                 <li>
+                                    Some nested list item 1
+                                 </li>
+                              </ol>
+                           </li>
+                           <li>
+                              List item 3
+                           </li>
+                        </ol>
+                        <h3>Definition List</h3>
+                        <dl>
+                           <dt>defines terms 1</dt>
+                           <dd>description 1</dd>
+                           <dt>defines terms 2</dt>
+                           <dd>description 2</dd>
+                        </dl>
+                        <h2>Details</h2>
+                        <details open>
+                           <summary>Even more details open</summary>
+                           <p>Here are even more details about the details.</p>
+                        </details>
+                        <details>
+                           <summary>Even more details close</summary>
+                           <p>Here are even more details about the details.</p>
+                        </details>
+                        <hr>
+                     </section>
+                     <section>
+                        <h2 id="textformats">Text formats</h2>
+                        <h3>Article Text</h3>
+                        <article>
+                           <h2>Article title</h2>
+                           <p>Article description
+                           <p>
+                        </article>
+                        <h3>Preformatted Text</h3>
+                        <pre><strong>Text</strong>
   in a <strong>pre</strong> element
     is displayed in a fixed-width
 font, and it preserves
 both           spaces and
     line breaks</pre>
-                  <h3>Code</h3>
-                  <pre>
+                        <h3>Code</h3>
+                        <pre>
   <code>.wrapper {
 display: flex;
   vertical-align: middle;
   justify-content: center;
  }</code></pre>
-                  <hr>
-                  </section>
-                  <section>
-                  <h2 id="blockquotes">Blockquotes</h2>
-                  <p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.
-                  <p>
-                  <blockquote>
-                "If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago." 
-                <p><a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a>
-                  </p>
-                  </blockquote>
-                  </section>
-          </main>
-          <footer>
-              <span>&copy;</span> Copyright Epam Systems
-          </footer>
-        </div>
+                        <hr>
+                     </section>
+                     <section>
+                        <h2 id="blockquotes">Blockquotes</h2>
+                        <p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.
+                        <p>
+                        <blockquote>
+                           "If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago." 
+                           <p><a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a>
+                           </p>
+                        </blockquote>
+                     </section>
+                  </main>
+                  <footer>
+                     <span>&copy;</span> Copyright Epam Systems
+                  </footer>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-  </div>
-</body>
-
+   </body>
 </html>
