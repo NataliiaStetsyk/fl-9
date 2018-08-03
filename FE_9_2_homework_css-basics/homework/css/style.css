@@ -1,0 +1,157 @@
+/* 1st task */
+
+@media print {
+	.tm-sidebar {
+		display: none;
+	}
+	.tm-main-content {
+		margin: 0 auto;
+	}
+	.tm-banner {
+		height: 250px;
+	}
+	.tm-content-box {
+		margin-bottom: 0;
+	}
+	.tm-section-title {
+		color: rgb(3, 65, 252) !important;
+	}
+	.tm-content-box:first-of-type {
+		flex-direction: column;
+	}
+	.flex-2-col .pad {
+		padding: 0;
+	}
+	.tm-team-description-container {
+		max-width: 535px;
+	}
+	#about,
+	.heading,
+	.blocks,
+	#ideas,
+	#ideas+.tm-content-box {
+		display: none;
+	}
+	.tm-footer {
+		margin-top: 20px;
+	}
+}
+
+
+/* 2nd task */
+
+@media screen {
+	.tm-section-title-box:hover {
+		background-color: #5dbcd2;
+		color: #fff;
+		font-weight: 700;
+		font-size: 300%;
+	}
+	.thumbnail {
+		border-radius: 50%;
+	}
+	/* 3rd task */
+	p:first-letter {
+		color: #76cdd7;
+		font-size: 30px;
+	}
+	p {
+		line-height: 24px;
+	}
+	/* 4th task */
+	.tm-main-nav,
+	.tm-content-box {
+		box-shadow: 0 0 5px 2px #666;
+	}
+	.flex-2-col {
+		display: none;
+	}
+	/* 5th task */
+	.tm-content-box {
+		position: relative;
+	}
+	.tm-content-box:before {
+		content: "";
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 0px;
+		height: 0px;
+		border-top: 30px solid #5dbcd2;
+		border-right: 120px solid transparent;
+	}
+	/* 6th task */
+	#tmCarousel .tm-section-title {
+		color: rgb(220, 220, 220);
+		letter-spacing: 5px;
+	}
+	/* 7th task */
+	h2+p {
+		font-style: italic;
+	}
+	/* 8th task */
+	section:nth-child(2) .tm-content-box:first-of-type h2 {
+		color: rgb(255, 0, 0);
+	}
+	#home+section p {
+		text-indent: 15px;
+		line-height: 32px;
+	}
+	/* 9th task */
+	.heading h2 {
+		text-align: center;
+		color: #76cdd7
+	}
+	.heading a {
+		color: black;
+	}
+	.heading a:visited {
+		color: silver;
+		text-decoration: none;
+	}
+	.heading li:nth-child(-2n+3):after {
+		content: "New";
+		color: red;
+		vertical-align: super;
+		font-size: 10pt;
+	}
+	.heading li a:not(.text):after {
+		content: ".";
+	}
+	.heading a:hover {
+		color: #76cdd7;
+		text-decoration: underline;
+	}
+	/* 10th task */
+	.gallery-container p::first-letter {
+		color: #000;
+	}
+	.blocks .box:first-child,
+	.blocks .box:nth-child(3),
+	.blocks .box:nth-child(5) {
+		background: rgb(228, 226, 226);
+	}
+	/* 11th task */
+	.tm-nav-item {
+		border-bottom: 2px dotted rgb(192, 192, 192);
+	}
+	.tm-nav-item:last-child {
+		border-bottom: none;
+	}
+	/* 12th task */
+	#contact .tm-section-title {
+		color: #f00;
+	}
+	input[type="text"],
+	button[type="submit"] {
+		color: #f00;
+	}
+	.btn:hover {
+		background-color: #5dbcd2;
+		color: #fff;
+	}
+	.mandatory-field:after {
+		content: "*";
+		color: #f00;
+	}
+}
