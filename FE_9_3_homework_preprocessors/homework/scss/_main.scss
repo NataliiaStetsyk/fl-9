@@ -1,0 +1,129 @@
+$colorBodyBg: null !default;
+$colorContentBg: null !default;
+$colorH1: null !default;
+$tblBg: null !default;
+
+body {
+	
+	background-color: $colorBodyBg;
+	
+}
+
+.main-wrapper {
+   width: 960px;
+   margin: 0 auto;
+   overflow:hidden;
+}
+	.logo img{
+    float: left;
+    margin: 10px 15px 15px 10px;
+    width:400px;
+}
+
+nav {
+    float: right;
+    border-bottom: 2px solid $colorBorder;
+    border-top: 2px solid $colorBorder;
+    margin: 120px 0px 30px 0px;
+    padding: 20px 0px;
+    width: 500px;
+}
+
+nav a {
+color: $colorNav;
+font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: $fontSizeNav;
+    padding: 0px 50px 0px 50px;
+}
+
+.toolbar{
+  float: right;
+  margin-bottom: 20px;
+}
+
+input[type="text"]{
+  color: $colorSearch;
+  padding: 10px;
+}
+article img{
+  max-width:450px;
+}
+
+article{
+    background-color: $arBgCoolor;
+    padding: 8px;
+    color: $textColor;
+    margin: 5px;
+}
+
+article:nth-child(2),
+article:nth-child(4),
+article:nth-child(6) {
+float: left;
+width: 47%;
+}
+
+article:nth-child(1),
+article:nth-child(3),
+article:nth-child(5){
+float: right;
+    width: 47%;
+}
+
+.post-list{
+    width:100%;
+
+}
+/* Clear floats after the columns */
+.post-list:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h3{
+  color: $colorHeadArt;
+  text-transform: uppercase;
+}
+.post-description{
+  color: $colorHeadArt;
+  border-bottom: 2px solid $textColor;
+  padding-bottom: 8px;
+}
+
+h1,h4{
+  text-align: right;
+  color: $colorH1;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+p{
+  color: $colorP;
+}
+
+.form-group{
+  padding-top:15px;
+  color:$colorP;
+  
+}
+
+.btn{
+  color: $colorSendText;
+  background-color:$colorSend;
+  text-transform: uppercase;
+  padding: 8px 60px;
+  float:right;
+  border: none;
+}
+footer{
+  color:$colorP;
+  font-size:12px;
+  margin-top:30px;
+}
+
+.form-control{
+  width: 950px;
+}
