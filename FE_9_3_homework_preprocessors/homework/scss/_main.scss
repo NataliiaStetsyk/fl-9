@@ -1,8 +1,3 @@
-$colorBodyBg: null !default;
-$colorContentBg: null !default;
-$colorH1: null !default;
-$tblBg: null !default;
-
 body {
 	
 	background-color: $colorBodyBg;
@@ -94,7 +89,7 @@ h3{
   padding-bottom: 8px;
 }
 
-h1,h4{
+h1, h4{
   text-align: right;
   color: $colorH1;
   text-transform: uppercase;
